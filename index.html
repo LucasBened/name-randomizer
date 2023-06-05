@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="teambox">
+        <div class="team1">
+          <span class="time1" id="blueteam">Time Azul:</span>
+        </div>
+        <hr />
+        <div class="team2">
+          <span class="time2" id="redteam">Time Vermelho:</span>
+        </div>
+        <div class="team-text">
+          <label for="team-input">Insira os Nomes:</label>
+          <input type="text" id="team-input" />
+          <div>
+            <span class="players-counter" id="counter">Players: </span>
+          </div>
+        </div>
+        <div class="buttons-container">
+          <div class="submit">
+            <button id="submit-btn" onclick="addPlayer()">Adicionar</button>
+          </div>
+          <div class="randomize">
+            <button id="randomize" onclick="randomize()">Randomizar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
